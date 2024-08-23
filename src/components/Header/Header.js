@@ -1,3 +1,5 @@
+import logo from '../../imgs/logo.svg';
+
 export const header = `
     <header class="header">
       <div class="header__wrapper">
@@ -6,7 +8,7 @@ export const header = `
         </button>
         <a href="#" class="header__link">
           <img
-            src="./src/imgs/logo.svg"
+            src=${logo}
             alt="Логотип Гендальф"
             class="header__logo"
           />

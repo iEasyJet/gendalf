@@ -1,3 +1,5 @@
+import footer__vector from '../../imgs/footer__vector.svg';
+
 export const footer = `
     <footer class="footer">
       <div class="footer__wrapper">
@@ -29,7 +31,7 @@ export const footer = `
             <div class="footer__wrapper-button">
               <button type="file" class="footer__button">
                 Прикрепить резюме
-                <img src="./src/imgs/footer__vector.svg" alt="Скрепка"/>
+                <img src=${footer__vector} alt="Скрепка"/>
               </button>
               <button type="submit" class="footer__button">Записаться</button>
             </div>
