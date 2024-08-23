@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url('./src/components/Header/Header.scss');
+@import url('./src/components/Welcome/Welcome.scss');
+@import url('./src/components/Description/Description.scss');
+@import url('./src/components/Value/Value.scss');
+@import url('./src/components/Base/Base.scss');
+@import url('./src/components/Tape/Tape.scss');
+@import url('./src/components/Application/Application.scss');
+@import url('./src/components/Answer/Answer.scss');
+@import url('./src/components/Footer/Footer.scss');
+
